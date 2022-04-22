@@ -1,0 +1,15 @@
+body {
+    margin-top: 10%;
+}
+
+
+.pagination button {
+    color: white;
+    background-color: #373737;
+    border: 0;
+    font-size: 15px;
+}
+
+.pagination button:hover {
+    background-color: #f47332;
+}

@@ -1,0 +1,1 @@
+/home/user/TEST_BACK/file.txt!!новая строка!!

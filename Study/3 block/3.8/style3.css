@@ -1,0 +1,66 @@
+body {
+    background: #4F6075;
+}
+
+.spisok {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.vl {
+    border-left: 1px solid rgba(0, 0, 0, 0.219);
+    height: 180px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #FFFFFF;   
+    box-shadow: 10px 5px 15px 3px rgb(0 0 0 / 50%);
+    height: 200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.host {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 200px;
+    align-items: center;
+}
+
+img {
+    width: 130px;
+    height: 63px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.txt {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #E66B40;
+    text-align: center;
+}
+
+.price {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.but {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #E66B40;
+    border: 0px;
+    color: white;
+    width: 120px;
+    height: 20px;
+}

@@ -1,0 +1,25 @@
+.diagram {
+    display: flex;
+    background: #EEF5E6;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagram::before {
+    content: '';
+    position: absolute;
+    
+}
+
+.diagram::before {
+    border: 16px solid #A2CB92;
+    border-color: #A2CB92 #D5E5C0 #A2CB92 #A2CB92 ;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}

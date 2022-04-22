@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: auto;
+    width: 570px
+}
+/* ---------------------------шапка */
+.component {
+    display: flex;
+}
+
+.text {
+    color: #4176a5;
+    font-weight:bold;
+}
+
+.text1 {
+    color: rgb(102, 102, 102);
+    margin-top: -14px ;
+    font-size: 13px;
+    font-family:monospace;
+    width: 110px;
+}
+
+.component p {
+    display:grid;
+}
+/* ------------------------------текст */
+.text-container {
+    padding-left: 0em;
+    padding-bottom: 1em;
+    margin-top: 1em
+}
+
+.text-container p {
+     font-size: 15px;
+     font-weight:bold;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(0, 0, 0);
+     margin: 0;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356); /* Параметры линии */
+   }
+/* ------------------------------низ */
+.component2 {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 22px;
+    height: 30px;
+    
+}
+
+.signs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.signs div {
+    color: #bfc4cc;
+    font-weight:bold;
+}
+
+
+.sign img {
+    height: 31px;
+}
+
+.sign div {
+    color: #bfc3cb;
+    font-weight:bold;
+}
+
+.heart {
+    margin-top: -4px;
+}
+
+
+/* 
+    display: flex;               тип отображения дивов 
+    flex-direction: row | row-reverse | column | column-reverse как отобразить 
+    justify-content: center;     выравнивает содержание 
+    align-items: center;         выравнивание элементов на странице 
+    text-align:center
+    border: 1px solid black;     границы 
+    border-radius: 4px;          окгругление 
+    padding: 20px;               отступы
+    width: 100%;                 ширина
+    font-size: 18px;             размер шрифта    
+    font-weight: 400;            ширина шрифта 
+    color: rgba(0, 0, 0 , 0.4);  цвет элемента
+    margin-top: 8px 0;           границы
+    height:  40px;               высота
+    background-color: green;     фон элемента
+    cursor: pointer;             изменение курсора при наведении
+    background:  ;               задний план 
+    
+    
+    */
+
+
+

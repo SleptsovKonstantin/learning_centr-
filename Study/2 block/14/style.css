@@ -1,0 +1,80 @@
+body {
+    background-color: #ccedd3;
+    /* width: 600px; */
+    display: flex;
+
+}
+
+.user {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: 5%;
+    box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .2);
+    
+}
+
+.user div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.user .userN {
+    margin-left: -8%;
+    font-weight: bold;
+}
+
+.user .tab1 {
+    text-decoration: underline;
+}
+
+.user .tab {
+    color: rgba(0, 0, 0, 0.137);
+}
+/* ------------------- */
+
+.text-container {
+    background-color: #ffffff; 
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: 5%;
+    box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .2);
+}
+
+.txt {
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    
+}
+
+
+/* 
+    display: flex;               тип отображения дивов 
+    flex-direction:              как отобразить 
+    justify-content: center;     выравнивает содержание 
+    align-items: center;         выравнивание элементов на странице 
+    text-align:center
+    border: 1px solid black;     границы 
+    border-radius: 4px;          окгругление 
+    padding: 20px;               отступы
+    width: 100%;                 ширина
+    
+    font-size: 18px;             размер шрифта    
+    font-weight: 400;            ширина шрифта 
+    color: rgba(0, 0, 0 , 0.4);  цвет элемента
+    margin-top: 8px 0;           границы
+    
+    height:  40px;               высота
+    background-color: green;     фон элемента
+    cursor: pointer;             изменение курсора при наведении
+    background:  ;               задний план 
+    
+    
+    */

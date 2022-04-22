@@ -1,0 +1,23 @@
+.progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(#323232, #8E8E8E);
+    /* box-shadow: ; */
+}
+
+.progress::before {
+    content: '';
+    position: absolute;
+}
+
+.progress::before { 
+    width: 35%;
+    height: 18px;
+    background: linear-gradient(#70BDF8, #3A92ED, #70BDF8);
+    border-radius: 10px 0 0 10px;
+    top: 9px;
+    left: 9px;
+    box-shadow: black;
+    box-shadow: 2px 0px 3px 0px rgb(0 0 0 / 50%);
+}

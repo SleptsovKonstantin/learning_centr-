@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+.flagman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font: 16px "Open Sans", sans-serif;
+  background-image: url(https://images02.nicepage.com/c461c07a441a5d220e8feb1a/8fb7905f714e55319fed378c/asd-min.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 885px ;
+  /* box-sizing: border-box; */
+}
+
+
+.grid111 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 406px 0px 0px;
+  width: 1140px;
+  height: 364px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 304px;
+  padding: 30px;
+  background: #292d33;
+  color: #ffffff;
+}
+
+.block img {
+  width: 60px;
+  height: 64px;
+}
+
+.block h4 {
+  margin: 20px 0px 0px;
+}
+
+.block p {
+  margin: 30px 0px 0px;
+  line-height: 1.6;
+}
+
+.block button {
+  margin: 20px 0px 0px;
+  padding: 10px 30px;
+  border-color: #fda820;
+  border-width: 2px;
+  border-style: solid;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  background-color: transparent;
+  color: #ffffff;
+  width: 107px;
+  height: 46px;
+}
+
+@media (max-width: 1199px) {
+    .grid111 {
+        margin: 272px 0px 0px 0px;
+        width: 940px;
+    }
+
+    .block {
+        width: 233px;
+    }
+}
+
+@media (max-width: 930px) {
+    .flagman {
+        height: 1076px;
+    }
+    .grid111 {
+        margin: 272px 0px 0px 0px;
+        width: 720px;
+        flex-wrap:wrap;
+        
+        /* width: 100%; */
+        grid-gap: 30px;
+    }
+
+    .block {
+        width: 285px;
+    }
+
+}
+
+@media (max-width: 745px) {
+    .block {
+        width: 195px;
+        height: 301px;
+    }
+
+    .grid111 {
+        grid-gap: 30px;
+        width: 540px;
+    }
+    
+}
+
+
+@media (max-width: 550px) {
+    .block {
+        width: 260px;
+    }
+
+    .grid111 {
+        grid-gap: 30px;
+        width: 300px;
+    }
+
+    .flagman {
+        height: 1506px;
+    }
+}
+
+
+@media (max-width: 745px) {
+}
